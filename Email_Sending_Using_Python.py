@@ -34,7 +34,7 @@ def send_email():
     #from  address
     msg['From']=sender_address
     #to address
-    msg['To']='mohanranjith16@gmail.com'
+    msg['To']=#sender-email
     #setting the high priority of the mail , Importance
     msg.set_param('importance','high value')
     # Receipient mail address
